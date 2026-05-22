@@ -135,7 +135,7 @@ PDF Upload
 ## PDF Extraction
 ![alt text](image-1.png)
 
-## Analytics Dashboard
+## Working in real world 
 ![alt text](image-2.png)
 
 ## Submission History

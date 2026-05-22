@@ -130,16 +130,16 @@ PDF Upload
 # 📸 Screenshots
 
 ## Dashboard
-(Add Screenshot Here)
+![alt text](image.png)
 
 ## PDF Extraction
-(Add Screenshot Here)
+![alt text](image-1.png)
 
 ## Analytics Dashboard
-(Add Screenshot Here)
+![alt text](image-2.png)
 
 ## Submission History
-(Add Screenshot Here)
+![alt text](image-3.png)
 
 ---
 

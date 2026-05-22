@@ -37,6 +37,61 @@ st.set_page_config(
     layout="wide"
 )
 create_table()
+if "logged_in" not in st.session_state:
+    st.session_state.logged_in = False
+
+
+def login_page():
+    st.markdown("""
+    <style>
+    .login-box {
+        max-width: 420px;
+        margin: 80px auto;
+        padding: 35px;
+        border-radius: 18px;
+        background: #161B22;
+        box-shadow: 0 0 25px rgba(0, 255, 209, 0.15);
+        text-align: center;
+    }
+    .login-title {
+        color: #00FFD1;
+        font-size: 34px;
+        font-weight: 800;
+    }
+    .login-subtitle {
+        color: #C9D1D9;
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <div class="login-box">
+        <div class="login-title">🚀 AutoEntry AI</div>
+        <div class="login-subtitle">
+            Intelligent Document Processing & Workflow Automation
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    username = st.text_input("Username")
+    password = st.text_input("Password", type="password")
+
+    login_btn = st.button("🔐 Login")
+
+    if login_btn:
+        if username == "admin" and password == "1234":
+            st.session_state.logged_in = True
+            st.success("Login successful!")
+            st.rerun()
+        else:
+            st.error("Invalid username or password")
+
+
+if not st.session_state.logged_in:
+    login_page()
+    st.stop()
 st.sidebar.title("🤖 AutoEntry AI")
 
 page = st.sidebar.radio(
@@ -48,6 +103,9 @@ page = st.sidebar.radio(
         "Settings"
     ]
 )
+if st.sidebar.button("🚪 Logout"):
+    st.session_state.logged_in = False
+    st.rerun()
 if page == "Dashboard":
     st.markdown("""
 # 🚀 AutoEntry AI

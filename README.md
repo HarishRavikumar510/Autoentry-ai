@@ -38,22 +38,57 @@ Extract structured data from PDFs, resumes, invoices, and spreadsheets, then aut
 
 ---
 
-# 📌 Project Overview
+# 🧠 AutoEntry AI Workflow
 
-This project was developed to automate repetitive data entry workflows using AI-assisted extraction and browser automation.
+```mermaid
+flowchart LR
+A[PDF / CSV Upload] --> B[Document Extraction Engine]
+B --> C[Smart Field Detection]
+C --> D[Structured Data Processing]
+D --> E[Browser Automation]
+E --> F[Google Form Submission]
+F --> G[SQLite Database Storage]
+G --> H[Analytics Dashboard]
+```
 
-The platform can:
+---
 
-- Upload CSV or Excel files
-- Upload PDF resumes/invoices/documents
-- Extract structured information automatically
-- Match extracted fields intelligently
-- Auto-fill Google Forms
-- Track submission history
-- Generate analytics dashboards
-- Export reports
+# 📸 System Preview
 
-This project simulates real-world enterprise workflow automation systems used in HR, finance, insurance, operations, and document processing industries.
+## 🔐 Login Interface
+
+> Secure authentication system for protected workflow automation
+
+<img width="1919" height="909" alt="Screenshot 2026-05-23 122856" src="https://github.com/user-attachments/assets/ec7e9871-28be-45d0-97fd-61d4a230a8ba" />
+
+
+## 📄 PDF Extraction Engine
+
+> Extract Name, Email, Phone, and document information automatically
+
+<img width="1919" height="911" alt="Screenshot 2026-05-23 123056" src="https://github.com/user-attachments/assets/ee19baef-bd3c-48a1-8c08-c0cd477c0e3e" />
+
+
+## 🤖 Browser Automation
+
+> Automatically fills and submits Google Forms using extracted data
+
+<img width="1597" height="1007" alt="Screenshot 2026-05-23 123143" src="https://github.com/user-attachments/assets/d6b5c755-f95d-4bbd-9c42-4939d9ea68d5" />
+
+
+## 📊 Analytics Dashboard
+
+> Monitor successful and failed submissions using real-time analytics
+
+<img width="1919" height="915" alt="Screenshot 2026-05-23 123219" src="https://github.com/user-attachments/assets/e9e6f936-1995-410b-896e-d8b8d7112a33" />
+
+
+## 📜 Submission History
+
+> Permanent submission tracking using SQLite database integration
+
+<img width="1917" height="912" alt="Screenshot 2026-05-23 123243" src="https://github.com/user-attachments/assets/dd2715b9-fc94-4076-8d95-2e5622648b84" />
+
 
 ---
 
@@ -262,20 +297,26 @@ https://www.linkedin.com/in/harish-ravikumar-70509524a/
 Unlike traditional automation demos, this project combines:
 
 - Intelligent Document Processing
+- Browser Automation
+- PDF Extraction
+- Workflow Orchestration
+- Database Persistence
+- Dashboard Analytics
+- AI-Powered Field Detection
+- Professional UI/UX
+
+into a single integrated intelligent workflow automation platform.
 
 ---
 
-# 👨‍💻 Developer
+# 📜 License
 
-Harish Ravikumar
-
-Electronics and Communication Engineering Student  
-AI • Automation • IoT • Intelligent Systems
+This project is developed for educational, research, portfolio, and learning purposes.
 
 ---
 
-# ⭐ Conclusion
+<div align="center">
 
-AutoEntry AI demonstrates the integration of AI-powered document processing, workflow automation, browser control, database persistence, and analytics dashboards into one intelligent automation platform.
+# ⭐ If You Like This Project, Give It A Star ⭐
 
-This project represents a real-world implementation of Intelligent Document Processing (IDP) and Robotic Process Automation (RPA) concepts.
+</div>

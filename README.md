@@ -1,203 +1,149 @@
+<div align="center">
+
 # 🚀 AutoEntry AI
 
-## Intelligent Document Processing & Workflow Automation System
+### 🤖 Intelligent Document Processing • Workflow Automation • Browser Automation
 
-AutoEntry AI is an AI-powered workflow automation platform that extracts structured data from PDFs, resumes, invoices, spreadsheets, and documents, then automatically fills and submits online forms using browser automation.
-
-The system combines OCR-ready document intelligence, smart field matching, analytics dashboards, reporting systems, and browser automation into one unified platform.
-
----
-
-# 📌 Project Overview
-
-This project was developed to automate repetitive data entry workflows using AI-assisted extraction and browser automation.
-
-The platform can:
-
-- Upload CSV or Excel files
-- Upload PDF resumes/invoices/documents
-- Extract structured information automatically
-- Match extracted fields intelligently
-- Auto-fill Google Forms
-- Track submission history
-- Generate analytics dashboards
-- Export reports
-
-This project simulates real-world enterprise workflow automation systems used in HR, finance, insurance, operations, and document processing industries.
+<img src="https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python">
+<img src="https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit">
+<img src="https://img.shields.io/badge/Playwright-Browser%20Automation-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/SQLite-Database-blue?style=for-the-badge&logo=sqlite">
+<img src="https://img.shields.io/badge/PyMuPDF-PDF%20Extraction-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/AI-Document%20Processing-purple?style=for-the-badge">
 
 ---
 
-# ✨ Features
+### 🔥 AI-Powered Workflow Automation Platform Built Using Intelligent Document Processing
 
-## 📄 Document Intelligence
-- PDF text extraction
-- Resume information extraction
-- Invoice data extraction
-- OCR-ready architecture
-- Structured field detection
+Extract structured data from PDFs, resumes, invoices, and spreadsheets, then automatically fill and submit online forms using browser automation and AI-powered smart field matching.
+
+</div>
+
+---
+
+# 🚀 Project Highlights
+
+✅ AI-Powered Document Processing  
+✅ PDF Resume & Invoice Extraction  
+✅ Google Form Automation  
+✅ Browser Automation Using Playwright  
+✅ CSV Bulk Data Submission  
+✅ Smart Dynamic Field Matching  
+✅ SQLite Database Integration  
+✅ Analytics Dashboard  
+✅ OCR-Ready Architecture  
+✅ Downloadable Submission Reports  
+✅ Login Authentication System  
+✅ Dark-Themed Professional UI  
+
+---
+
+# 🧠 AutoEntry AI Workflow
+
+```mermaid
+flowchart LR
+A[PDF / CSV Upload] --> B[Document Extraction Engine]
+B --> C[Smart Field Detection]
+C --> D[Structured Data Processing]
+D --> E[Browser Automation]
+E --> F[Google Form Submission]
+F --> G[SQLite Database Storage]
+G --> H[Analytics Dashboard]
+```
+
+---
+
+# 📸 System Preview
+
+## 🔐 Login Interface
+
+> Secure authentication system for protected workflow automation
+
+![alt text](image-4.png)
+
+## 📄 PDF Extraction Engine
+
+> Extract Name, Email, Phone, and document information automatically
+
+![alt text](image-5.png)
 
 ## 🤖 Browser Automation
-- Google Form auto-fill
-- Automatic form submission
-- Multi-record processing
-- Smart dynamic field matching
-- Browser control using Playwright
 
-## 📊 Dashboard & Analytics
-- Submission analytics dashboard
-- Success/failure tracking
-- Submission history
-- Progress monitoring
+> Automatically fills and submits Google Forms using extracted data
+
+![alt text](image-6.png)
+
+## 📊 Analytics Dashboard
+
+> Monitor successful and failed submissions using real-time analytics
+
+![alt text](image-7.png)
+
+## 📜 Submission History
+
+> Permanent submission tracking using SQLite database integration
+
+![alt text](image-8.png)
+
+---
+
+# ⚡ Core Features
+
+## 📄 Intelligent Document Processing
+- Extracts structured data from PDF files
+- Resume and invoice data extraction
+- OCR-ready architecture
+- Smart regex-based field detection
+
+## 🤖 Browser Automation
+- Google Form auto-fill automation
+- Automatic browser control using Playwright
+- Dynamic field matching
+- Multi-record workflow automation
+
+## 📊 Dashboard Analytics
+- Submission success/failure tracking
+- Analytics monitoring dashboard
+- Real-time automation statistics
 - Downloadable reports
 
-## 🗄️ Database Persistence
-- SQLite integration
-- Permanent submission history
-- Error logging
-- Automation audit tracking
+## 📂 CSV Bulk Automation
+- Upload CSV or spreadsheet files
+- Batch form submission
+- Bulk workflow automation
+- Submission progress monitoring
 
-## 🎨 Professional UI
-- Multi-page dashboard
-- Sidebar navigation
-- Dark modern interface
-- Configurable settings page
+## 🗄️ Database Integration
+- SQLite persistent storage
+- Submission history tracking
+- Error logging
+- Permanent automation records
+
+## 🔐 Authentication System
+- Login-protected dashboard
+- Session-based authentication
+- Secure workflow access
 
 ---
 
 # 🛠️ Tech Stack
 
-| Technology | Purpose |
+| Technology | Usage |
 |---|---|
-| Python | Core backend logic |
-| Streamlit | Frontend dashboard |
-| Playwright | Browser automation |
-| SQLite | Database persistence |
-| Pandas | Data processing |
-| PyMuPDF (fitz) | PDF text extraction |
-| Regex | Smart field extraction |
-| VS Code | Development environment |
-
----
-
-# 🏗️ Project Architecture
-
-```text
-PDF / CSV / Excel Upload
-            ↓
-Document Extraction Engine
-            ↓
-Smart Field Detection
-            ↓
-Structured Data Processing
-            ↓
-Browser Automation Engine
-            ↓
-Google Form Submission
-            ↓
-SQLite Database Storage
-            ↓
-Analytics Dashboard & Reports
-```
-
----
-
-# 🔄 Workflow
-
-## CSV Workflow
-
-```text
-CSV Upload
-→ Smart Column Mapping
-→ Data Preview
-→ Automated Form Submission
-→ Submission Tracking
-→ Report Export
-```
-
-## PDF Workflow
-
-```text
-PDF Upload
-→ Text Extraction
-→ Name/Email/Phone Detection
-→ Structured Data Generation
-→ Form Auto-fill
-→ Automated Submission
-```
-
----
-
-# 📸 Screenshots
-
-## Dashboard
-![alt text](image.png)
-
-## PDF Extraction
-![alt text](image-1.png)
-
-## Working in real world 
-![alt text](image-2.png)
-
-## Submission History
-![alt text](image-3.png)
-
----
-
-# ⚙️ Installation
-
-## 1. Clone Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/autoentry-ai.git
-```
-
-## 2. Open Project
-
-```bash
-cd autoentry-ai
-```
-
-## 3. Create Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-## 4. Activate Virtual Environment
-
-### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-### Linux / Mac
-
-```bash
-source venv/bin/activate
-```
-
----
-
-# 📦 Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-# ▶️ Run Application
-
-```bash
-python -m streamlit run app.py
-```
+| Python | Core Backend Logic |
+| Streamlit | Frontend Dashboard |
+| Playwright | Browser Automation |
+| SQLite | Database Persistence |
+| Pandas | Data Processing |
+| PyMuPDF | PDF Text Extraction |
+| Regex | Smart Field Detection |
+| VS Code | Development Environment |
 
 ---
 
 # 📁 Project Structure
 
-```text
+```bash
 ai-data-entry-assistant/
 │
 ├── app.py
@@ -214,68 +160,158 @@ ai-data-entry-assistant/
 ├── utils/
 │   └── document_extractor.py
 │
-├── assets/
 ├── screenshots/
-└── sample_files/
+│
+├── sample_files/
+│
+└── .streamlit/
+    └── config.toml
 ```
 
 ---
 
-# 📈 Usage
+# ⚙️ Installation
 
-## CSV Automation
-1. Upload CSV/Excel file
-2. Paste Google Form URL
-3. Preview mapped fields
-4. Start automation
-5. Download submission report
+## Clone Repository
 
-## PDF Automation
-1. Upload PDF resume/invoice
-2. Extract document information
-3. Paste Google Form URL
-4. Auto-submit extracted data
+```bash
+git clone https://github.com/HarishRavikumar510/autoentry-ai.git
+```
 
 ---
 
-# 🔮 Future Enhancements
+## Navigate to Project
 
-- OCR support for scanned images
-- Handwriting recognition
-- AI confidence scoring
-- Duplicate detection
-- Retry failed submissions
-- Authentication system
-- Cloud deployment
-- AI-based resume ranking
-- ERP integration
-- REST API integration
+```bash
+cd autoentry-ai
+```
 
 ---
 
-# 🎯 Industry Use Cases
+## Create Virtual Environment
 
-- HR Resume Automation
-- Invoice Processing
-- Insurance Form Automation
-- Banking KYC Systems
-- Student Registration Automation
-- Enterprise Workflow Automation
+```bash
+python -m venv venv
+```
+
+---
+
+## Activate Virtual Environment
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Linux / Mac
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# ▶️ Run Application
+
+```bash
+python -m streamlit run app.py
+```
+
+---
+
+# 📊 Sample Extracted Output
+
+```json
+{
+  "Name": "Harish Ravikumar",
+  "Email": "harish@gmail.com",
+  "Phone": "9876543210"
+}
+```
+
+---
+
+# 🎯 Project Objectives
+
+- Automate repetitive data entry workflows
+- Build AI-powered document processing systems
+- Simulate enterprise workflow automation
+- Reduce manual form submission effort
+- Create intelligent browser automation platform
+
+---
+
+# 🌟 Future Enhancements
+
+- 🌍 OCR for scanned documents
+- 📈 AI confidence scoring
+- 🤖 Resume ranking system
+- ☁️ Cloud deployment
+- 📱 Mobile responsive dashboard
+- 🔐 Multi-user authentication
+- 📡 REST API integration
+- 🧠 Handwriting recognition
+- 📄 Aadhaar/PAN extraction
+
+---
+
+# 👨‍💻 Developed By
+
+<div align="center">
+
+## Harish Ravikumar
+
+### Electronics and Communication Engineering Student  
+### AI • Automation • IoT • Intelligent Systems Enthusiast
+
+---
+
+### 🌐 Connect With Me
+
+GitHub:  
+https://github.com/HarishRavikumar510
+
+LinkedIn:  
+https://www.linkedin.com/in/harish-ravikumar-70509524a/
+
+</div>
+
+---
+
+# ⭐ Why This Project Stands Out
+
+Unlike traditional automation demos, this project combines:
+
 - Intelligent Document Processing
+- Browser Automation
+- PDF Extraction
+- Workflow Orchestration
+- Database Persistence
+- Dashboard Analytics
+- AI-Powered Field Detection
+- Professional UI/UX
+
+into a single integrated intelligent workflow automation platform.
 
 ---
 
-# 👨‍💻 Developer
+# 📜 License
 
-Harish Ravikumar
-
-Electronics and Communication Engineering Student  
-AI • Automation • IoT • Intelligent Systems
+This project is developed for educational, research, portfolio, and learning purposes.
 
 ---
 
-# ⭐ Conclusion
+<div align="center">
 
-AutoEntry AI demonstrates the integration of AI-powered document processing, workflow automation, browser control, database persistence, and analytics dashboards into one intelligent automation platform.
+# ⭐ If You Like This Project, Give It A Star ⭐
 
-This project represents a real-world implementation of Intelligent Document Processing (IDP) and Robotic Process Automation (RPA) concepts.
+</div>

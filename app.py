@@ -81,7 +81,7 @@ def login_page():
     login_btn = st.button("🔐 Login")
 
     if login_btn:
-        if username == "admin" and password == "1234":
+        if username == "demo" and password == "demo123":
             st.session_state.logged_in = True
             st.success("Login successful!")
             st.rerun()

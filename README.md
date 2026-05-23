@@ -38,52 +38,22 @@ Extract structured data from PDFs, resumes, invoices, and spreadsheets, then aut
 
 ---
 
-# 🧠 AutoEntry AI Workflow
+# 📌 Project Overview
 
-```mermaid
-flowchart LR
-A[PDF / CSV Upload] --> B[Document Extraction Engine]
-B --> C[Smart Field Detection]
-C --> D[Structured Data Processing]
-D --> E[Browser Automation]
-E --> F[Google Form Submission]
-F --> G[SQLite Database Storage]
-G --> H[Analytics Dashboard]
-```
+This project was developed to automate repetitive data entry workflows using AI-assisted extraction and browser automation.
 
----
+The platform can:
 
-# 📸 System Preview
+- Upload CSV or Excel files
+- Upload PDF resumes/invoices/documents
+- Extract structured information automatically
+- Match extracted fields intelligently
+- Auto-fill Google Forms
+- Track submission history
+- Generate analytics dashboards
+- Export reports
 
-## 🔐 Login Interface
-
-> Secure authentication system for protected workflow automation
-
-![alt text](image-4.png)
-
-## 📄 PDF Extraction Engine
-
-> Extract Name, Email, Phone, and document information automatically
-
-![alt text](image-5.png)
-
-## 🤖 Browser Automation
-
-> Automatically fills and submits Google Forms using extracted data
-
-![alt text](image-6.png)
-
-## 📊 Analytics Dashboard
-
-> Monitor successful and failed submissions using real-time analytics
-
-![alt text](image-7.png)
-
-## 📜 Submission History
-
-> Permanent submission tracking using SQLite database integration
-
-![alt text](image-8.png)
+This project simulates real-world enterprise workflow automation systems used in HR, finance, insurance, operations, and document processing industries.
 
 ---
 
@@ -292,26 +262,20 @@ https://www.linkedin.com/in/harish-ravikumar-70509524a/
 Unlike traditional automation demos, this project combines:
 
 - Intelligent Document Processing
-- Browser Automation
-- PDF Extraction
-- Workflow Orchestration
-- Database Persistence
-- Dashboard Analytics
-- AI-Powered Field Detection
-- Professional UI/UX
-
-into a single integrated intelligent workflow automation platform.
 
 ---
 
-# 📜 License
+# 👨‍💻 Developer
 
-This project is developed for educational, research, portfolio, and learning purposes.
+Harish Ravikumar
+
+Electronics and Communication Engineering Student  
+AI • Automation • IoT • Intelligent Systems
 
 ---
 
-<div align="center">
+# ⭐ Conclusion
 
-# ⭐ If You Like This Project, Give It A Star ⭐
+AutoEntry AI demonstrates the integration of AI-powered document processing, workflow automation, browser control, database persistence, and analytics dashboards into one intelligent automation platform.
 
-</div>
+This project represents a real-world implementation of Intelligent Document Processing (IDP) and Robotic Process Automation (RPA) concepts.
